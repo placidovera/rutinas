@@ -47,6 +47,21 @@ span{
 span{
     font-size: 1.5rem;
 }
+.titulo-principal {
+  font-size: 2.5rem;
+  color: #39ff14;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.texto-intro {
+  font-size: 1.1rem;
+  color: #d0ffd0; /* un verde muy claro para contraste */
+  font-style: italic;
+  line-height: 1.5;
+}
+
 .titulo-objetivo {
   font-size: 2rem;
   color: #39ff14;

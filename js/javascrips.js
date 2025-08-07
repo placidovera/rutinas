@@ -54,46 +54,46 @@ document.getElementById("general").innerHTML = `
   <span><strong>5. Método Belleza y Fuerza</strong></span><br>
   <span><strong>6. Programa Silueta Fitness</strong></span>
 `;
-document.getElementById("hipertrofia").innerHTML = `
-  <span><strong>1. Principiante</strong></span><br>
-  <span><strong>2. Intermedio</strong></span><br>
-  <span><strong>3. Avanzado</strong></span><br>
-  <span><strong>4. Experto</strong></span><br>
-  <span><strong>5. Profesional</strong></span>
-`;
-document.getElementById("grasa").innerHTML = `
-  <span><strong>2 días por semana</strong></span><br>
-  <span><strong>3 días por semana</strong></span><br>
-  <span><strong>4 días por semana</strong></span><br>
-  <span><strong>5 días por semana</strong></span><br>
-  <span><strong>6 días por semana</strong></span><br>
-`;
-document.getElementById("fuerza").innerHTML = `
-  <span><strong>1. Pecho y tríceps</strong></span><br>
-  <span><strong>2. Espalda y bíceps</strong></span><br>
-  <span><strong>3. Piernas y glúteos</strong></span><br>
-  <span><strong>4. Hombros y trapecios</strong></span><br>
-  <span><strong>5. Core y zona media</strong></span>
-`;
-document.getElementById("resistencia").innerHTML = `
-  <span><strong>1. Espalda y bíceps</strong></span><br>
-  <span><strong>2. Pecho y tríceps</strong></span><br>
-  <span><strong>3. Core y zona media</strong></span><br>
-  <span><strong>4. Piernas y glúteos</strong></span><br>
-  <span><strong>5. Hombros y trapecios</strong></span>
-`;
-document.getElementById("postural").innerHTML = `
-  <span><strong>1. Pecho y espalda</strong></span><br>
-  <span><strong>2. Piernas y core</strong></span><br>
-  <span><strong>3. Bíceps y tríceps</strong></span><br>
-  <span><strong>4. Hombros y trapecios</strong></span><br>
-  <span><strong>5. Glúteos y zona lumbar</strong></span>
-`;
-document.getElementById("general").innerHTML = `
-  <span><strong>1. Pecho y hombros</strong></span><br>
-  <span><strong>2. Espalda y glúteos</strong></span><br>
-  <span><strong>3. Piernas y zona media</strong></span><br>
-  <span><strong>4. Bíceps y trapecios</strong></span><br>
-  <span><strong>5. Tríceps y lumbar</strong></span>
-`;
+// document.getElementById("hipertrofia").innerHTML = `
+//   <span><strong>1. Principiante</strong></span><br>
+//   <span><strong>2. Intermedio</strong></span><br>
+//   <span><strong>3. Avanzado</strong></span><br>
+//   <span><strong>4. Experto</strong></span><br>
+//   <span><strong>5. Profesional</strong></span>
+// `;
+// document.getElementById("grasa").innerHTML = `
+//   <span><strong>2 días por semana</strong></span><br>
+//   <span><strong>3 días por semana</strong></span><br>
+//   <span><strong>4 días por semana</strong></span><br>
+//   <span><strong>5 días por semana</strong></span><br>
+//   <span><strong>6 días por semana</strong></span><br>
+// `;
+// document.getElementById("fuerza").innerHTML = `
+//   <span><strong>1. Pecho y tríceps</strong></span><br>
+//   <span><strong>2. Espalda y bíceps</strong></span><br>
+//   <span><strong>3. Piernas y glúteos</strong></span><br>
+//   <span><strong>4. Hombros y trapecios</strong></span><br>
+//   <span><strong>5. Core y zona media</strong></span>
+// `;
+// document.getElementById("resistencia").innerHTML = `
+//   <span><strong>1. Espalda y bíceps</strong></span><br>
+//   <span><strong>2. Pecho y tríceps</strong></span><br>
+//   <span><strong>3. Core y zona media</strong></span><br>
+//   <span><strong>4. Piernas y glúteos</strong></span><br>
+//   <span><strong>5. Hombros y trapecios</strong></span>
+// `;
+// document.getElementById("postural").innerHTML = `
+//   <span><strong>1. Pecho y espalda</strong></span><br>
+//   <span><strong>2. Piernas y core</strong></span><br>
+//   <span><strong>3. Bíceps y tríceps</strong></span><br>
+//   <span><strong>4. Hombros y trapecios</strong></span><br>
+//   <span><strong>5. Glúteos y zona lumbar</strong></span>
+// `;
+// document.getElementById("general").innerHTML = `
+//   <span><strong>1. Pecho y hombros</strong></span><br>
+//   <span><strong>2. Espalda y glúteos</strong></span><br>
+//   <span><strong>3. Piernas y zona media</strong></span><br>
+//   <span><strong>4. Bíceps y trapecios</strong></span><br>
+//   <span><strong>5. Tríceps y lumbar</strong></span>
+// `;
 
