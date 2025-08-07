@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+.row{
+    height: 100%;
+}
+body{
+  background-image: url('../imagenes/fondo.png'); 
+  background-size: cover;       
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.objetivo{
+    background-color: #00ffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}  
+.caja-dia {
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 15px;
+  height: 300px;
+  background-color: #000;                                  
+  border: 2px solid #39ff14;          
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.caja-dia:hover {
+  background-color: #1a1a1a;            /* fondo más claro al hover */
+  border-color: #39ff14;
+}
+.caja-dia:hover span,
+.caja-dia:hover strong {
+  color: #fff !important;
+}
+span{
+  color: #39ff14;
+}
+.objetivo {
+  height: 100px;
+}
+span{
+    font-size: 1.5rem;
+}
+.titulo-objetivo {
+  font-size: 2rem;
+  color: #39ff14;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 0 8px #39ff14, 0 0 15px #39ff14;
+  animation: pulso 2s infinite;
+}
+
+@keyframes pulso {
+  0%, 100% {
+    text-shadow: 0 0 8px #39ff14, 0 0 15px #39ff14;
+  }
+  50% {
+    text-shadow: 0 0 15px #39ff14, 0 0 25px #39ff14;
+  }
+}
+
+
+.col-izquierda {
+font-size: 2rem;
+}
+.banner-verde {
+  background-color: #00c48c;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+  margin-bottom: 10px;
+  color: white;
+}
+/* Diferente ancho para cada franja */
+.banner-verde-1 {
+  width: 60%;
+}
+.banner-verde-2 {
+  width: 70%;
+}
+.banner-verde-3 {
+  width: 80%;
+}
+
+.custom-navbar {
+  background-color: #000; /* Fondo oscuro */
+  padding: 0.8rem 1.5rem;
+  border-bottom: 2px solid #39ff14;
+}
+
+.text-fluor {
+  color: #39ff14 !important;
+}
+
+.bg-fluor {
+  background-color: #39ff14 !important;
+}
+.titulo-motivador {
+  color: #39ff14;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px #39ff14, 0 0 15px #39ff14;
+  text-align: center;
+  margin: 30px 0;
+  animation: pulso 2s infinite;
+}
+
+@keyframes pulso {
+  0% {
+    text-shadow: 0 0 8px #39ff14, 0 0 15px #39ff14;
+  }
+  50% {
+    text-shadow: 0 0 15px #39ff14, 0 0 25px #39ff14;
+  }
+  100% {
+    text-shadow: 0 0 8px #39ff14, 0 0 15px #39ff14;
+  }
+}
